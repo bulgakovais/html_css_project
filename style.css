@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+
+    font-family: "Lato-Black";
+    
+    src: url('../fonts/Lato-Black.ttf');
+    
+    src: url('../fonts/WebFont-Italic.eot?iefix') format('eot'),
+    
+    url('../fonts/WebFont-Italic.woff') format('woff'),
+    
+    url('../fonts/WebFont-Italic.ttf') format('truetype'),
+    
+    url('../fonts/WebFont-Italic.svg#webfont') format('svg');
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+    }
+
+body {
+    font-family: 'Lato', sans-serif;
+  }
+
+.container {
+    width: 1140px; 
+    /* or max-width? */
+    margin: 0 auto;
+}
+.top_service {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+.top_service_left{
+    display: flex;
+
+}
+.top_service_left_logo{
+    margin-right: 37px;
+    align-items: center;
+    margin-top: 25px;
+}
+.top_service_left_search{
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 30px;
+    height: 38px;
+}
+
+.top_service_browse{
+    width: 87px;
+    border-width: 1px 0 1px 1px !important;
+    border-radius: 3px 0 0 3px;
+    border: 1px solid #e6e6e6;
+    background-color: #cdcdcc;
+    background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
+    position: relative;
+}
+
+.top_text{
+    color: #222222;
+    line-height: 36px;
+    text-align: center;
+    margin-right: 5px;
+}
+/* -----------------SUMMARY--------------------- */
+    summary {
+    display: block;
+  }
+  
+    summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  summary::after {
+    content: "";
+    left: 69px; top: 16px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 4.5px 0 4.5px;
+    border-color: #838383 transparent transparent transparent;
+    position: absolute;
+  }
+  
+  /* details[open] > summary::after {
+    content: '\25BC';
+    width: 9px !important;
+    height: 6px!important;
+  } */
+
+
+ .text {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300 !important;
+    font-style: normal;
+    letter-spacing: 0.35px; 
+ }
+
+
+/* ---------------browse drop menu---------------------------------- */
+
+.browse_drop_menu{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #e6e6e6;
+    width: max-content;
+    padding: 10px 20px 20px;
+    border-radius: 5px;
+    
+}
+
+ В рамках задачи выбора технологического стека для построения пилотного стенда инфраструктры разработки на базе оркестратора кубернейтас  
+
+
+
+.browse_drop_menu:hover :active{
+
+}
+
+.browse_drop_menu_up{
+    margin-bottom: 20px;
+}
+
+.browse_drop_menu_header{
+    color: #232323;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: uppercase;
+    letter-spacing: 0.35px;
+    border-bottom: 1px solid #e6e6e6;
+    width: 236px;
+}
+.browse_drop_menu_text{
+    color: #4f4f4f;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.35px;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.drop_menu_list{
+    margin-top: 14px;
+}
+
+.drop_menu_link:hover, :active{
+    color: #f16d7f;
+}
+
+.drop_menu_link{
+    text-decoration: none;
+    color: #4f4f4f;
+    display: block;
+}
+
+
+/* ------------------------------------------------------------------ */
+.top_search{
+    width: 317px;
+    border-radius: 0 3px 3px 0;
+    border: 1px solid #e6e6e6;
+    background-color: #ffffff;
+}
+
+.top_button_left {
+    width: 36px;
+    border: 1px solid #e6e6e6;
+    border-width: 1px 1px 1px 0px;
+    border-radius: 0 3px 3px 0;
+    background-color: #ffffff;
+  }
+
+  .top_input{
+    border-width: 1px 1px 1px 0;
+    border: 1px solid #e6e6e6;
+    width: 244px;
+    color: #a4a4a4;
+    /* letter-spacing: normal; */
+    line-height: 32px;
+    padding-left: 16px;
+  }
+  
+   
+  .top_input:hover, :active, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+  .top_service_right{
+      display: flex;
+      align-items: center;
+  }
+
+  .shop_box{
+      margin-top: 40px;
+      margin-bottom: 31px;
+
+      margin-right: 26px;
+  }
+  .top_button_right{
+    padding: 2px 32px 4px 20px;
+    background-color: #f16d7f;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 32px;
+    letter-spacing: 0.38px;
+    border: 1px solid #ffffff;
+    position: relative;
+  }
+
+.top_button_right::before{
+    content: "";
+    left: 109px; top: 16px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 4.5px 0 4.5px;
+    border-color: #ffffff transparent transparent transparent;
+    position: absolute;
+}
+
+  .top_button_right:hover{
+    background-color: #ffffff;
+    border: 1px solid #f16d7f;
+    color: #f16d7f;
+  }
+
+  .top_button_right:hover::before{
+    content: "";
+    left: 109px; top: 16px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 4.5px 0 4.5px;
+    border-color: #f16d7f transparent transparent transparent;
+    position: absolute;
+}
+
+  .top_button_img{
+      margin-bottom: 2px;
+      margin-left: 1px
+  }
+
+  /* _________________________hr____________________________________ */
+
+  .top_hr{
+    height: 1px;
+    border-width: 0;
+    background-color: #e8e8e8;
+  }
+
+  .top_nav{
+    display: flex;
+    justify-content: center;
+  }
+
+  .top_nav_list{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #222222;
+    list-style-type: none;
+  }
+
+  .nav_link:hover{
+      color: #f16d7f;
+  }
+
+  /* ______________main banner______________________________________________ */
+
+   
+    .nav_link{
+        text-decoration: none;
+        color:  #222222;
+        padding: 12px 25px;
+        display: block;
+    }
+    .main_link:hover, :active, :focus {
+        outline: 0;
+        outline-offset: 0;
+    }
+
+  .main_banner{
+      height: 613px;
+      background-color: #e8e8e8;
+  }
+
+  .main_fon{
+     background-image: url(img/main_banner_backgr.png);
+     background-position: 73% 100%;
+     background-repeat: no-repeat;
+  }
+
+  .main_banner_ad{
+      display: flex;
+      justify-content: start;
+      padding-top: 224px;
+      padding-bottom: 297px;
+  }
+
+  .main_banner_text{
+    display: flex;
+    flex-direction: column;
+    color: #222222;
+    font-family: "Lato-Black";
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    text-decoration: none; 
+    font-size: 40px;
+    letter-spacing: 1px;
+    padding-left: 12px;
+  }
+
+  .main_banner_stick_img{
+      padding-top: 15px;
+  }
+
+  .main_banner_text_sup{
+    font-size: 60px;
+    letter-spacing: 1.5px;
+    margin-bottom: -5px;
+}
+
+.colortext{
+    color: #f16d7f; 
+}
+
+/* ___________promotions___________________ */
+
+
+.link{
+    text-decoration: none;
+    display: block;
+}
+
+.prom_container{
+    width: 560px;
+}
+
+.promotions{
+    display: flex;
+    margin-top: 98px;
+    margin-bottom: 100px;
+}
+
+.promotions_left{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.promotions_left_sup{
+    background-image: url(img/prom_lf_sup.png);
+    height: 542px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.promotions_left_sub{
+    background-image: url(img/prom_lf_sub.png);
+    height: 261px;
+    background-color: #dadad2;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.promotions_right{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.promotions_right_sup{
+    background-image: url(img/prom_rg_sup.png);
+    height: 261px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.promotions_right_sub{
+    background-image: url(img/prom_rg_sub.png);
+    background-repeat: no-repeat;
+    height: 542px;
+    box-sizing: border-box;
+}
+
+.promotions_text{
+    background-color: #ffffff;
+    padding: 16px 19px;
+    width: max-content;
+    color: #222222;
+    font-family: "Lato-Black";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 0.45px;
+    line-height: normal;
+
+}
+
+.promotion_text2{
+    font-size: 30px;
+    letter-spacing: 0.75px;
+}
+
+.promotion_padding{
+    padding-top: 26px;
+}
+
+/* ___________________________PRODUCT____________________________ */
+
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 113px;
+}
+
+.product_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.product_header_up{
+    color: #222222;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: 0.75px;
+}
+.product_header_down{
+
+    color: #9f9f9f;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.35px;
+}
+
+.product_all{
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 19px;
+}
+
+.product_card{
+    box-sizing: border-box;
+}
+.product_all_card{
+    display: flex;
+    flex-direction: column;
+}
+
+.product_card_text{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    color: #222222;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.product_price{
+    margin-top: 17px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.product_button{
+    text-decoration: none;
+    width: 212px;
+    height: 48px;
+    background-color: #f16d7f;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.38px;
+    text-align: center;
+    line-height: 46px;
+  }
+
+  .product_button:hover{
+    background-color: #ffffff;
+    border: 1px solid #f16d7f;
+    color: #f16d7f;
+    /* padding-left: 28px; */
+  }
+
+  .product_button_img{
+      margin-bottom: 2px;
+      margin-left: 9px;
+  }
+
+  .product_button_img:hover{
+    margin-left: 0px;
+  }
