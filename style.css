@@ -90,13 +90,6 @@ body {
     border-color: #838383 transparent transparent transparent;
     position: absolute;
   }
-  
-  /* details[open] > summary::after {
-    content: '\25BC';
-    width: 9px !important;
-    height: 6px!important;
-  } */
-
 
  .text {
     font-family: Lato;
@@ -119,10 +112,6 @@ body {
     border-radius: 5px;
     
 }
-
- В рамках задачи выбора технологического стека для построения пилотного стенда инфраструктры разработки на базе оркестратора кубернейтас  
-
-
 
 .browse_drop_menu:hover :active{
 
@@ -189,7 +178,6 @@ body {
     border: 1px solid #e6e6e6;
     width: 244px;
     color: #a4a4a4;
-    /* letter-spacing: normal; */
     line-height: 32px;
     padding-left: 16px;
   }
@@ -518,7 +506,6 @@ body {
     background-color: #ffffff;
     border: 1px solid #f16d7f;
     color: #f16d7f;
-    /* padding-left: 28px; */
   }
 
   .product_button_img{
